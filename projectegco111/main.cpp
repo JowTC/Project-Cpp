@@ -9,6 +9,7 @@ using namespace sf;
     char msj[100] = "This is text1";
     char msj1[100] = "button has been click";
     char msj2[100];
+
    //------------------------------------------------------------------------------------------
     Font font,font1;
     font.loadFromFile("NLT-OTTO.ttf");
