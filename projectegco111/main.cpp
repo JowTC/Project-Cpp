@@ -9,7 +9,7 @@ using namespace sf;
     char msj[100] = "This is text1";
     char msj1[100] = "button has been click";
     char msj2[100];
-
+    //variable
    //------------------------------------------------------------------------------------------
     Font font,font1;
     font.loadFromFile("NLT-OTTO.ttf");
@@ -66,7 +66,7 @@ using namespace sf;
 
 
                 }
-                //à¢éÒä»·ÓºÑ­ªÕÃÒÂÃÑºÃÒÂ¨èÒÂ
+                //Ã Â¢Ã©Ã’Ã¤Â»Â·Ã“ÂºÃ‘Â­ÂªÃ•ÃƒÃ’Ã‚ÃƒÃ‘ÂºÃƒÃ’Ã‚Â¨Ã¨Ã’Ã‚
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left)&&(x>=56&&x<=450)&&(y>=112&&y<=230)&&(menuevent==0))
                 {
 
@@ -77,7 +77,7 @@ using namespace sf;
 
 
                 }
-                //µÍ¹¡´»ØèÁsave
+                //ÂµÃÂ¹Â¡Â´Â»Ã˜Ã¨Ãsave
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left)&&(x>=364&&x<=441)&&(y>=17&&y<=51)&&(menuevent==1))
                         menuevent=0;
 
