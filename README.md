@@ -1,3 +1,3 @@
-## Project-Cpp
+# Project-C++
 
-#income and expenses account program 
+### income and expenses account program 
